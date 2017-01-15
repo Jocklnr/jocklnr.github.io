@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="project.js"></script>
+		
+		<link rel="stylesheet" href="project.css">
+		
+		<title>CodePlayer</title>
+	
+	</head>
+
+	<body>
+	
+		<div id="titleBar">
+		
+			<div id="logo">CodePlayer</div>
+	
+			<div id="buttonContainer">
+			
+				<div id="html" class="toggleButtons active">HTML</div>
+				<div id="css" class="toggleButtons">CSS</div>
+				<div id="javascript" class="toggleButtons">JavaScript</div>
+				<div id="output" class="toggleButtons active">Output</div>
+			
+			</div>
+			
+		</div>
+			
+		<div id="panelArea">
+		
+			<textarea id="htmlPanel" class="panel"><p id="paragraph">asdf</p></textarea>
+			<textarea id="cssPanel" class="panel hidden">#paragraph { color: white; }</textarea>
+			<textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").style.backgroundColor = "blue"</textarea>
+			<iframe id="outputPanel" class="panel"></iframe>
+		
+		</div>
+	
+	</body>
+	
+</html>

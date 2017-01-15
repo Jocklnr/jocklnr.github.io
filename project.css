@@ -1,0 +1,105 @@
+#logo {
+
+	float: left;
+	font-size: 110%;
+	font-weight: bold;
+	margin: 10px 10px;
+	position: absolute;
+
+}
+
+#buttonContainer {
+
+	align: center;
+	display: inline-block;
+
+}
+
+#panelArea {
+
+	display: flex;
+
+}
+
+#titleBar {
+
+	background-color: lightgrey;
+	text-align: center;
+
+}
+
+#output {
+
+	border-right: 1px solid grey;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+#html {
+
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+#output {
+
+	border-right: none;
+	
+}
+
+.toggleButtons {
+
+	border: 1px solid gray;
+	border-right: none;
+	float: left;
+	font-size: 90%;
+	margin: 5px 0px;
+	padding: 8px;
+	user-select: none;
+	cursor: pointer;
+
+}
+
+.active {
+
+	background-color: lightblue;
+
+}
+
+.hover {
+
+	background-color: grey;
+
+}
+
+.panel {
+
+	border: 1px solid grey;
+	border-left: none;
+	border-top: none;
+	flex: 1;
+
+}
+
+.hidden {
+
+	display: none;
+
+}
+
+body {
+
+	font-family: sans-serif;
+	font-size: 24px;
+	margin: 0;
+
+}
+
+textarea {
+	
+	resize: none;
+	padding: 0;
+
+}
