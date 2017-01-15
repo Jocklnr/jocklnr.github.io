@@ -36,6 +36,7 @@ function updateOutput() {
 $(function() {
 
 	$(".panel").height($(document).height() - $("#titleBar").height() - 1);
+	$("textarea").attr("spellcheck", false);
 	updateOutput();
 
 });
